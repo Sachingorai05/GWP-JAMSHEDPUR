@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="/GWP college/images/jharkhandlogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>GWP College</title>
+</head>
+<body>
+    <header>
+        <div class="contact">
+            <ul>
+                <a href=""><li style="background-color: yellowgreen;">
+                    NOTICE
+                </li>
+            </a>
+                <li><i class="fa fa-hourglass-end"> </i> LAST UPDATED: 13.03.2023</li>
+            </ul>
+            <ol>
+                <a href="mailto:gwpjamsedpur@gmail.com?subject=Home Page Inquiry"><li><i class="fa fa-envelope"> </i> GWPJAMSEDPUR@GMAIL.COM</li></a>
+                <a href=""><li style="background-color: rgb(2, 96, 96);">
+                    LOGIN
+                </li></a>
+            </ol>
+        </div>
+        <center><img src="./images/banner-gwp.jpg" alt=""></center>
+    </header>
+    <nav>
+
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT US</li>
+                <li>DEPARTMENT <i class="fa fa-caret-down"></i></li>
+                <li>FACULTIES</li>
+                <li>GALLERY</li>
+                <li>PLACEMENT</li>
+                <li>QUICK LINKS <i class="fa fa-caret-down"></i></li>
+                <li>CONTACT US</li>
+            </ul>
+
+    </nav>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="./images/SCIENCE-WEEK_1.jpg" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="./images/SCIENCE-WEEK_2.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="./images/slider-1.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="./images/banner_winter.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+          <div class="mySlides fade">
+            <img src="./images/womens-day2023.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+          <div class="mySlides fade">
+            <img src="./images/womensday.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+    <section>
+        <div class="info">
+            <h1>&nbsp;&nbsp;PRINCIPAL'S MESSAGE</h1><br>
+            <p>This is an era of liberalization, privatization and globalization. The need of the hour is training individuals in dynamic way and make them to face different challenges thrown up by rapidly changing socio-economic technical scenario at the Global level. The Younger Generation must strive to develop into a well rounded personality with excellent Technical, Managerial and Interpersonal skills poised at the cutting-edge of Technology.</p><br>
+            <h4>PRINCIPAL IN-CHARGE</h4><br>
+            <hr><br>
+            <h1>&nbsp;&nbsp;ABOUT G.W.P. JAMSHEDPUR</h1><br>
+            <p>
+                Government Women's Polytechnic Jamshedpur is came into existence in the year 1998. Situtated in Gamharia, Sareikela-Kharsawn district of Jharkhand near Jamshedpur. The Institution is offering Diploma Programmes in Computer Science Engineering, Electronics & Communication Engineering, Mechanical Engineering & Architecture Engineering. Presently the Institution building is in the 9 acres of land where complete building has developed desired quality and standard institution also has qualified faculty and other resources to suit with fast changing technological innovation and inventions.
+                <br><br><br>
+                GWP Jamshedpur takes extreme pride in the fact that it has been occupying a unique position in imparting technological education to Indian Women youth. Since its inception, the institute has had a vision to provide quality technical education and to facilitate scientific and technological research, coupled with a mission to develop human potential to its zenith.
+            </p>
+            <br><br>
+            <img src="./images/banner-gwp.jpg" alt="" width="100%">
+            <button>READ MORE</button>
+        </div>
+        <div class="left-info">
+            <div class="notice">
+              <h3>LATEST NOTICE</h3><br>
+              <marquee direction="up" onmouseover="this.stop()" onmouseleave="this.start()">
+              <p><a href="">HIRING: PTL RECRUITMENT 2023, WALK IN INTERVIEW</a></p>
+              <br>
+              <p><i class="fa fa-calendar"></i> 06-03-2023</p>
+              <br>
+              <hr>
+              <br>
+              <p><a href="">NOTICE: RE-ADMISSION OF 2ND YEAR STUDENTS OF SESSION 2021-24</a></p>
+              <br>
+              <p><i class="fa fa-calendar"></i> 02-03-2023</p>
+              <br><br>
+              </marquee>
+              <button>SEE ALL NOTICE</button>
+            </div>
+            <div class="enquiry">
+              <h2> MAKE AN ENQUIRY</h2>
+              <br>
+              <form>
+                <input type="text" placeholder="Enter your Name"><br><br>
+                <input type="email" placeholder="Enter your Email"><br><br>
+                <input type="text" placeholder="Enter your Subject"><br><br>
+                <textarea cols="30" rows="5" placeholder="Enter your Message...."></textarea><br><br>
+                <button>SEND MESSAGE</button>
+              </form>
+              <br>
+              <p>GRIEVANCE REDRESSAL</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+      <section>Created By Sachin Gorai
+        </section>
+      </footer>
+</body>
+</html>
